@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" rx="60" fill="#2563eb"/>
+  <!-- Envelope body -->
+  <rect x="110" y="140" width="280" height="190" rx="18" fill="none" stroke="#ffffff" stroke-width="20"/>
+  <!-- Envelope flap -->
+  <polyline points="110,145 250,260 390,145" fill="none" stroke="#ffffff" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Checkmark circle -->
+  <circle cx="370" cy="310" r="45" fill="#2563eb" stroke="#ffffff" stroke-width="16"/>
+  <polyline points="348,310 365,327 395,293" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250" y="430" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="48" fill="#ffffff">EMAIL</text>
+</svg>
