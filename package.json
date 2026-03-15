@@ -1,6 +1,6 @@
 {
   "name": "@easysolutions906/mcp-webtools",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "MCP server bundling web/data tools: email validation, IP geolocation, URL scraping, sentiment analysis, QR codes, and random data generation",
   "type": "module",
   "bin": {
