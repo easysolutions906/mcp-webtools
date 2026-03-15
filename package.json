@@ -1,0 +1,34 @@
+{
+  "name": "@easysolutions906/mcp-webtools",
+  "version": "1.0.0",
+  "description": "MCP server bundling web/data tools: email validation, IP geolocation, URL scraping, sentiment analysis, QR codes, and random data generation",
+  "type": "module",
+  "bin": {
+    "mcp-webtools": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "link-data": "ln -sf ../../../email-validation/src/data/disposable-domains.js src/data/disposable-domains.js && ln -sf ../../../email-validation/src/data/free-providers.js src/data/free-providers.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cheerio": "^1.2.0",
+    "qrcode": "^1.5.4",
+    "zod": "^3.24.0"
+  },
+  "keywords": [
+    "mcp",
+    "email-validation",
+    "ip-geolocation",
+    "url-scraper",
+    "sentiment-analysis",
+    "qr-code",
+    "random-data",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
